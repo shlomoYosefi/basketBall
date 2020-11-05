@@ -13,14 +13,14 @@ export class GetDataService {
   arrAllResult:BehaviorSubject<any> = new BehaviorSubject(null) 
 
   arr = [{Cleveland:[ 
-    {id:1,name:"shlomo",height:'1.84',PlayerPosition:'center',img:"/assets/shlomo.jpg"},
-    {id:2,name:"israel",height:'1.84',PlayerPosition:'Shooting Guard',img:"/assets/israel.jpg"},
-    {id:3,name:"nisim",height:'1.86',PlayerPosition:'Shooting Guard',img:"/assets/nisim.jpg"},
-    {id:4,name:"ahron",height:'1.68',PlayerPosition:'Small Forward',img:"/assets/playerNew2.jpg"},
-    {id:5,name:"moti",height:'1.76',PlayerPosition:'Power Forward',img:"/assets/moti.jpg"},
-    {id:6,name:"yacov",height:'1.81',PlayerPosition:'center',img:"/assets/player6.jpg"},
-    {id:7,name:"evya",height:'1.68',PlayerPosition:'Small Forward',img:"/assets/evia.jpg"},
-    {id:8,name:"evyatar",height:'1.80',PlayerPosition:'Shooting Guard',img:"/assets/evyatar.jpg"}
+    {id:1,name:"shlomo",height:'1.84',PlayerPosition:'center',img:"assets/image/shlomo.jpg"},
+    {id:2,name:"israel",height:'1.84',PlayerPosition:'Shooting Guard',img:"assets/image/israel.jpg"},
+    {id:3,name:"nisim",height:'1.86',PlayerPosition:'Shooting Guard',img:"assets/image/nisim.jpg"},
+    {id:4,name:"ahron",height:'1.68',PlayerPosition:'Small Forward',img:"assets/image/playerNew2.jpg"},
+    {id:5,name:"moti",height:'1.76',PlayerPosition:'Power Forward',img:"assets/image/moti.jpg"},
+    {id:6,name:"yacov",height:'1.81',PlayerPosition:'center',img:"assets/image/player6.jpg"},
+    {id:7,name:"evya",height:'1.68',PlayerPosition:'Small Forward',img:"assets/image/evia.jpg"},
+    {id:8,name:"evyatar",height:'1.80',PlayerPosition:'Shooting Guard',img:"assets/image/evyatar.jpg"}
     ]},
     {israel:[ 
     {id:1,name:"gad",height:2.05,PlayerPosition:'center',img:"https://besttv232-ynet-images1-prod.cdn.it.best-tv.com/PicServer5/2019/11/28/9623728/962371612841499980808no.jpg"},
